@@ -8,3 +8,22 @@ public abstract class Hospital
         Console.WriteLine("beds count at hospital ")
     }
 }
+class Chennai:Hospital
+{
+    public override void DocterLists();
+    {
+        Console.WriteLine("docters name");
+        Console.WriteLine("docters specialist");
+        Console.WriteLine("doctors age");
+    }
+
+}
+class program
+{
+    static void Main(string [] args)
+    {
+        Chennai mychennai = new chennai();
+        mychennai.DocterLists();
+    }
+
+}
