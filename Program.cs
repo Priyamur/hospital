@@ -3,14 +3,14 @@
 public abstract class Hospital
 {
     public abstract void DoctorLists();
-    public abstract void BedLists();
+    public void  BedLists()
     {
-        Console.WriteLine("beds count at hospital ")
+        Console.WriteLine("beds count at hospital ");
     }
 }
 class Chennai:Hospital
 {
-    public override void DocterLists();
+    public override void DoctorLists()
     {
         Console.WriteLine("docters name");
         Console.WriteLine("docters specialist");
@@ -18,12 +18,12 @@ class Chennai:Hospital
     }
 
 }
-class program
+class Program
 {
-    static void Main(string [] args)
+    public static void Main(string [] args)
     {
-        Chennai mychennai = new chennai();
-        mychennai.DocterLists();
+        Chennai mychennai = new Chennai();
+        mychennai.DoctorLists();
     }
 
 }
