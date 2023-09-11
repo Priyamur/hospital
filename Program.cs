@@ -6,6 +6,7 @@ public abstract class Hospital
     public void  BedLists()
     {
         Console.WriteLine("beds count at hospital ");
+        Console.WriteLine("beds count at ICU");
     }
 }
 class Chennai:Hospital
@@ -15,6 +16,7 @@ class Chennai:Hospital
         Console.WriteLine("docters name");
         Console.WriteLine("docters specialist");
         Console.WriteLine("doctors age");
+        Console.WriteLine("doctors mobile no");
     }
 
 }
